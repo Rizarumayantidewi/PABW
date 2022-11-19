@@ -1,0 +1,178 @@
+.top {
+    padding: auto;
+}
+
+.satu {
+    background-image: url(./img/sepatu.jpg);
+    background-size: cover;
+    border: 0;
+    position: relative;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.satu h1 {
+    font-size: 40px;
+    font-family: 'Poppins';
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+.satu p {
+    line-height: 2px;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+.satu .subtext {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.satu main {
+    display: flex;
+    color: aliceblue;
+}
+
+.isi {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dua {
+    flex: 45%;
+    width: 50%;
+    margin-top: 300px;
+    background-color: #31CEFF;
+    size: 30%;
+}
+
+.dua.row {
+    padding: auto;
+}
+
+.dua img {
+    size: 5%;
+    padding: 20px;
+}
+
+.dua caption {
+    background-color: #31CEFF;
+    background-size: 75%;
+    padding: 100px;
+    width: auto;
+    height: auto;
+}
+
+.tiga {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: auto;
+}
+
+.tiga.row {
+    padding: auto;
+}
+
+.tiga h1 {
+    color: black;
+    top: 25px;
+    font-family: 'Poppins';
+    font-weight: 620;
+    font-size: 30px;
+    line-height: 70px;
+
+    border-left: #31CEFF 5px solid;
+    text-transform: capitalize;
+    padding-left: 10px;
+    position: absolute;
+    left: 70px;
+    width: 115px;
+    height: 60px;
+}
+
+.tiga p {
+    padding: 100px;
+    page-break-after: auto;
+}
+
+.tiga.box {
+    font-size: 25px;
+    flex: 0 0 25%;
+    padding: 20px 25px;
+}
+
+.tiga h4 {
+    font-size: 25px;
+    padding: 25px;
+    margin-top: auto;
+    position: relative;
+    bottom: 130px;
+    left: 60px;
+}
+
+.box {
+    flex: 0 0 25%;
+    padding: 20px 25px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.empat {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: auto;
+}
+
+.empat.row {
+    padding: 200px;
+}
+
+.empat h1 {
+    color: black;
+    top: 800px;
+    font-family: 'Poppins';
+    font-weight: 620;
+    font-size: 30px;
+    line-height: 70px;
+
+    border-left: #31CEFF 5px solid;
+    padding-left: 10px;
+    text-transform: capitalize;
+    left: 70px;
+    width: 115px;
+    height: 60px;
+    position: absolute;
+}
+
+.empat p {
+    line-height: normal;
+    font-size: 15px;
+    color: black;
+    margin-top: 900px;
+    padding-left: 65px;
+}
+
+.empat img {
+    width: 100px;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.subtext h5 {
+    font-size: 23px;
+    margin-top: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+}

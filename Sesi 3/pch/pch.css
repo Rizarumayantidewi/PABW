@@ -1,0 +1,92 @@
+.kop {
+    max-width: 650px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.body {
+    padding-bottom: 50px;
+}
+
+.counter {
+    color: black;
+}
+
+.halaman {
+    display: flex;
+    margin-top: 10px;
+}
+
+.halaman-kiri {
+    display: flex;
+    margin-right: 5px;
+}
+
+.halaman-kanan {
+    display: flex;
+    margin-right: 5px;
+}
+
+.halaman a {
+    padding: 5px;
+    border: 1px solid;
+    border-color: whitesmoke;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+}
+
+.halaman a img {
+    filter: brightness(0) invert(2);
+}
+
+.input {
+    background-color: #fff;
+}
+
+.judul {
+    display: flex;
+    align-items: center;
+}
+
+.judul h4 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.judul .counter {
+    background-color: cyan;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: darkcyan;
+}
+
+.search {
+    margin-left: auto;
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding-left: 30px;
+}
+
+.search img {
+    margin-right: -20px;
+    position: fixed;
+    height: 20px;
+}
+
+.tabel {
+    flex-direction: column;
+}
